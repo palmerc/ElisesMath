@@ -1,12 +1,13 @@
-__author__ = 'Cameron Lowell Palmer'
+#!/usr/bin/env python3
 
+__author__ = 'Cameron Lowell Palmer'
 
 import random
 import math
 
 numExamples = 100
 lowerLimit = 0
-upperLimit = 100
+upperLimit = 20
 roundNumber = True
 
 worksheet_header = '''\

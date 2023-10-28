@@ -1,5 +1,6 @@
-__author__ = 'Cameron Lowell Palmer'
+#!/usr/bin/env python3
 
+__author__ = 'Cameron Lowell Palmer'
 
 import numpy as np
 
@@ -47,8 +48,8 @@ sections.append(document_header)
 
 problems = []
 for count in range(0, number_of_problems):
-    top = np.random.random_integers(10, 99)
-    bottom = np.random.random_integers(10, 99)
+    top = np.random.randint(10, 99)
+    bottom = np.random.randint(10, 99)
     problem = [top, bottom]
     problems.append(problem)
 
